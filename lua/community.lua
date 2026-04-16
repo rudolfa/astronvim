@@ -11,5 +11,6 @@ return {
     tag = "v20.0.0",
   },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.cpp" },
   -- import/override with your plugins folder
 }
