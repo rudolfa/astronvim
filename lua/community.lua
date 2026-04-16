@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
@@ -6,7 +6,10 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 ---@type LazySpec
 return {
-  "AstroNvim/astrocommunity",
+  {
+    "AstroNvim/astrocommunity",
+    tag = "v20.0.0",
+  },
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
 }
