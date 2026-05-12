@@ -24,11 +24,18 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone -depth=1 https://github.com/rudolfa/astronvim/ ~/.config/nvim012av6
+git checkout nvim012av6
+```
+
+#### Add alias
+
+```shell
+alias nv="NVIM_APPNAME=nvim012av6 nvim"
 ```
 
 #### Start Neovim
 
 ```shell
-nvim
+nv
 ```
